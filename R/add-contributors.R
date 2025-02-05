@@ -20,7 +20,7 @@
 #' from lists of contributors.
 #' @param exclude_not_planned If `TRUE` (default), exclude contributions to any
 #' issues closed as "not planned".
-#' @param exclude_users Names of any users to be excluded from lists of 
+#' @param exclude_users Names of any users to be excluded from lists of
 #' contributors.
 #' @param num_sections Number of sections in which to divide contributors:
 #' \itemize{
@@ -551,7 +551,7 @@ format_contribs <- function (href, i, j, format) {
             paste0 (
                 "<img src=\"",
                 i$avatar [j],
-                "\" width=\"100px;\" alt=\"\"/>"
+                "\" width=\"100px;\" class=\"ctb_avatar\" alt=\"\"/>"
             ),
             "</a><br>",
             href,
