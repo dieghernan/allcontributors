@@ -19,6 +19,7 @@ get_contributors <- function (org, repo,
                               exclude_label = "wontfix",
                               exclude_issues = NULL,
                               exclude_not_planned = TRUE,
+                              exclude_users = NULL,
                               alphabetical = FALSE,
                               check_urls = TRUE,
                               quiet = FALSE) {
@@ -101,6 +102,11 @@ get_contributors <- function (org, repo,
         ctbs <- check_github_urls (ctbs, quiet = quiet)
     }
     rownames (ctbs) <- NULL
+    
+    if(!is.null(exclude_users)){
+      ctbs <- ctbs[!ctbs$logins %in% exclude_users, ]
+      
+    }
 
     return (ctbs)
 }

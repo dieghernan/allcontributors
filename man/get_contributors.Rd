@@ -11,6 +11,7 @@ get_contributors(
   exclude_label = "wontfix",
   exclude_issues = NULL,
   exclude_not_planned = TRUE,
+  exclude_users = NULL,
   alphabetical = FALSE,
   check_urls = TRUE,
   quiet = FALSE
@@ -38,6 +39,9 @@ from lists of contributors.}
 
 \item{exclude_not_planned}{If \code{TRUE} (default), exclude contributions to any
 issues closed as "not planned".}
+
+\item{exclude_users}{Names of any users to be excluded from lists of
+contributors.}
 
 \item{alphabetical}{If \code{TRUE}, order contributors alphabetically, otherwise
 order by decreasing numbers of contributions.}

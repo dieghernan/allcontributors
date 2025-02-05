@@ -22,5 +22,16 @@ test_that ("get_contributors", {
         "issue_authors",
         "issue_contributors"
     )))
+    
+    
+    expect_true(all(c("mpadge", "mdsumner") %in% x$logins))
+    # Omit an user
+    
+    x_omit <- with_mock_dir ("getcontribs", {
+      get_contributors (org = "hypertidy", repo = "geodist", 
+                        exclude_users = c("mpadge", "mdsumner"))
+    })
+    
+    expect_false(any(c("mpadge", "mdsumner") %in% x_omit$logins))
 
 })

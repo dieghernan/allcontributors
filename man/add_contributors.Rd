@@ -12,6 +12,7 @@ add_contributors(
   exclude_label = "wontfix",
   exclude_issues = NULL,
   exclude_not_planned = TRUE,
+  exclude_users = NULL,
   num_sections = 3,
   section_names = c("Code", "Issue Authors", "Issue Contributors"),
   format = "grid",
@@ -46,6 +47,9 @@ from lists of contributors.}
 
 \item{exclude_not_planned}{If \code{TRUE} (default), exclude contributions to any
 issues closed as "not planned".}
+
+\item{exclude_users}{Names of any users to be excluded from lists of
+contributors.}
 
 \item{num_sections}{Number of sections in which to divide contributors:
 \itemize{
