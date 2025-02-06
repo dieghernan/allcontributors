@@ -459,7 +459,7 @@ add_one_section <- function (ctbs, orgrepo, ncols,
     x <- ""
 
     if (format == "grid") {
-        x <- c (x, "<table>")
+        x <- c (x, "<table class=\"table allctb-table\" >")
     } else if (format == "list") {
         x <- c (x, "<ol>")
     }
@@ -551,7 +551,7 @@ format_contribs <- function (href, i, j, format) {
             paste0 (
                 "<img src=\"",
                 i$avatar [j],
-                "\" width=\"100px;\" class=\"ctb_avatar\" alt=\"\"/>"
+                "\" width=\"100px;\" class=\"allctb-avatar\" alt=\"\"/>"
             ),
             "</a><br>",
             href,
