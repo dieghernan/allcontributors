@@ -1,0 +1,205 @@
+# --------------------------------------------
+# CITATION file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# --------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "allcontributors" in publications use:'
+type: software
+license: GPL-3.0-only
+title: 'allcontributors: Acknowledge all Contributors to a Project'
+version: 0.2.2.008
+doi: 10.32614/CRAN.package.allcontributors
+abstract: Acknowledge all contributors to a project via a single function call. The
+  function appends to a 'README' or other specified file(s) a table with names of
+  all individuals who contributed via code or repository issues. The package also
+  includes several additional functions to extract and quantify contributions to any
+  repository.
+authors:
+- family-names: Padgham
+  given-names: Mark
+  email: mark.padgham@email.com
+- family-names: Hartgerink
+  given-names: Chris
+repository: https://CRAN.R-project.org/package=allcontributors
+repository-code: https://github.com/ropensci/allcontributors
+url: https://github.com/ropensci/allcontributors
+contact:
+- family-names: Padgham
+  given-names: Mark
+  email: mark.padgham@email.com
+references:
+- type: software
+  title: cli
+  abstract: 'cli: Helpers for Developing Command Line Interfaces'
+  notes: Imports
+  url: https://cli.r-lib.org
+  repository: https://CRAN.R-project.org/package=cli
+  authors:
+  - family-names: Csárdi
+    given-names: Gábor
+    email: csardi.gabor@gmail.com
+  year: '2025'
+  doi: 10.32614/CRAN.package.cli
+- type: software
+  title: clipr
+  abstract: 'clipr: Read and Write from the System Clipboard'
+  notes: Imports
+  url: http://matthewlincoln.net/clipr/
+  repository: https://CRAN.R-project.org/package=clipr
+  authors:
+  - family-names: Lincoln
+    given-names: Matthew
+    email: matthew.d.lincoln@gmail.com
+    orcid: https://orcid.org/0000-0002-4387-3384
+  year: '2025'
+  doi: 10.32614/CRAN.package.clipr
+- type: software
+  title: curl
+  abstract: 'curl: A Modern and Flexible Web Client for R'
+  notes: Imports
+  url: https://jeroen.r-universe.dev/curl
+  repository: https://CRAN.R-project.org/package=curl
+  authors:
+  - family-names: Ooms
+    given-names: Jeroen
+    email: jeroenooms@gmail.com
+    orcid: https://orcid.org/0000-0002-4035-0289
+  year: '2025'
+  doi: 10.32614/CRAN.package.curl
+- type: software
+  title: gert
+  abstract: 'gert: Simple Git Client for R'
+  notes: Imports
+  url: https://docs.ropensci.org/gert/
+  repository: https://CRAN.R-project.org/package=gert
+  authors:
+  - family-names: Ooms
+    given-names: Jeroen
+    email: jeroenooms@gmail.com
+    orcid: https://orcid.org/0000-0002-4035-0289
+  year: '2025'
+  doi: 10.32614/CRAN.package.gert
+- type: software
+  title: gh
+  abstract: 'gh: ''GitHub'' ''API'''
+  notes: Imports
+  url: https://gh.r-lib.org/
+  repository: https://CRAN.R-project.org/package=gh
+  authors:
+  - family-names: Bryan
+    given-names: Jennifer
+  - family-names: Wickham
+    given-names: Hadley
+  year: '2025'
+  doi: 10.32614/CRAN.package.gh
+- type: software
+  title: gitcreds
+  abstract: 'gitcreds: Query ''git'' Credentials from ''R'''
+  notes: Imports
+  url: https://gitcreds.r-lib.org/
+  repository: https://CRAN.R-project.org/package=gitcreds
+  authors:
+  - family-names: Csárdi
+    given-names: Gábor
+    email: csardi.gabor@gmail.com
+  year: '2025'
+  doi: 10.32614/CRAN.package.gitcreds
+- type: software
+  title: magrittr
+  abstract: 'magrittr: A Forward-Pipe Operator for R'
+  notes: Imports
+  url: https://magrittr.tidyverse.org
+  repository: https://CRAN.R-project.org/package=magrittr
+  authors:
+  - family-names: Bache
+    given-names: Stefan Milton
+    email: stefan@stefanbache.dk
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@rstudio.com
+  year: '2025'
+  doi: 10.32614/CRAN.package.magrittr
+- type: software
+  title: httptest2
+  abstract: 'httptest2: Test Helpers for ''httr2'''
+  notes: Suggests
+  url: https://enpiar.com/httptest2/
+  repository: https://CRAN.R-project.org/package=httptest2
+  authors:
+  - family-names: Richardson
+    given-names: Neal
+    email: neal.p.richardson@gmail.com
+    orcid: https://orcid.org/0009-0002-7992-3520
+  year: '2025'
+  doi: 10.32614/CRAN.package.httptest2
+- type: software
+  title: knitr
+  abstract: 'knitr: A General-Purpose Package for Dynamic Report Generation in R'
+  notes: Suggests
+  url: https://yihui.org/knitr/
+  repository: https://CRAN.R-project.org/package=knitr
+  authors:
+  - family-names: Xie
+    given-names: Yihui
+    email: xie@yihui.name
+    orcid: https://orcid.org/0000-0003-0645-5666
+  year: '2025'
+  doi: 10.32614/CRAN.package.knitr
+- type: software
+  title: rmarkdown
+  abstract: 'rmarkdown: Dynamic Documents for R'
+  notes: Suggests
+  url: https://pkgs.rstudio.com/rmarkdown/
+  repository: https://CRAN.R-project.org/package=rmarkdown
+  authors:
+  - family-names: Allaire
+    given-names: JJ
+    email: jj@posit.co
+  - family-names: Xie
+    given-names: Yihui
+    email: xie@yihui.name
+    orcid: https://orcid.org/0000-0003-0645-5666
+  - family-names: Dervieux
+    given-names: Christophe
+    email: cderv@posit.co
+    orcid: https://orcid.org/0000-0003-4474-2498
+  - family-names: McPherson
+    given-names: Jonathan
+    email: jonathan@posit.co
+  - family-names: Luraschi
+    given-names: Javier
+  - family-names: Ushey
+    given-names: Kevin
+    email: kevin@posit.co
+  - family-names: Atkins
+    given-names: Aron
+    email: aron@posit.co
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  - family-names: Cheng
+    given-names: Joe
+    email: joe@posit.co
+  - family-names: Chang
+    given-names: Winston
+    email: winston@posit.co
+  - family-names: Iannone
+    given-names: Richard
+    email: rich@posit.co
+    orcid: https://orcid.org/0000-0003-3925-190X
+  year: '2025'
+  doi: 10.32614/CRAN.package.rmarkdown
+- type: software
+  title: testthat
+  abstract: 'testthat: Unit Testing for R'
+  notes: Suggests
+  url: https://testthat.r-lib.org
+  repository: https://CRAN.R-project.org/package=testthat
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  year: '2025'
+  doi: 10.32614/CRAN.package.testthat
+

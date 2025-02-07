@@ -16,3 +16,23 @@ aaa\.Rmd*
 # compiled object files
 *.o
 *.so
+.Rdata
+.Ruserdata
+*-Ex.R
+/*.Rcheck/
+.Rproj.user/
+vignettes/*.html
+vignettes/*.pdf
+.httr-oauth
+*_cache/
+/cache/
+*.utf8.md
+*.knit.md
+.Renviron
+allcontributors.Rcheck/
+allcontributors*.tar.gz
+allcontributors*.tgz
+CRAN-SUBMISSION
+cran-comments.md
+.github/pkg.lock
+Rplots.pdf

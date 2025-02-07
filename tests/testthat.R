@@ -1,5 +1,5 @@
-library (testthat)
-library (httptest2)
-library (allcontributors)
+library(testthat)
+library(httptest2)
+library(allcontributors)
 
-test_check ("allcontributors")
+test_check("allcontributors")

@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "type": "SoftwareSourceCode",
+  "author": [
+    {
+      "type": "Person",
+      "email": "mark.padgham@email.com",
+      "familyName": "Padgham",
+      "givenName": "Mark"
+    },
+    {
+      "type": "Person",
+      "familyName": "Hartgerink",
+      "givenName": "Chris"
+    }
+  ],
+  "codeRepository": "https://github.com/ropensci/allcontributors",
+  "contributor": {
+    "type": "Person",
+    "familyName": "Salmon",
+    "givenName": "Maëlle"
+  },
+  "description": "Acknowledge all contributors to a project via a single function call. The function appends to a 'README' or other specified file(s) a table with names of all individuals who contributed via code or repository issues. The package also includes several additional functions to extract and quantify contributions to any repository.",
+  "license": "https://spdx.org/licenses/GPL-3.0",
+  "name": "allcontributors: Acknowledge all Contributors to a Project",
+  "programmingLanguage": {
+    "type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "provider": {
+    "id": "https://cran.r-project.org",
+    "type": "Organization",
+    "name": "Comprehensive R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  },
+  "runtimePlatform": "R version 4.4.2 (2024-10-31 ucrt)",
+  "version": "0.2.2.8"
+}

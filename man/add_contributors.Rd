@@ -104,9 +104,9 @@ to be locally installed. See \url{https://cli.github.com/}.
 # The following code extracts the contributors from the git repository
 # associated with current working directory and writes them to a file.
 \dontrun{
-f <- tempfile (fileext = ".Rmd")
-writeLines ("", f) # blank file in tempdir()
-add_contributors (repo = ".", files = f)
+f <- tempfile(fileext = ".Rmd")
+writeLines("", f) # blank file in tempdir()
+add_contributors(repo = ".", files = f)
 }
 }
 \seealso{

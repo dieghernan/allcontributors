@@ -22,7 +22,7 @@ repository
 }
 \examples{
 \dontrun{
-get_gh_issue_titles (org = "ropensci", repo = "allcontributors")
+get_gh_issue_titles(org = "ropensci", repo = "allcontributors")
 }
 }
 \seealso{
